@@ -1,7 +1,7 @@
 version: 0.1
 
 phases:
-  pre-build:
+  pre_build:
     commands:
       - echo Pull loadimpact/k6 image...
       - docker pull loadimpact/k6
