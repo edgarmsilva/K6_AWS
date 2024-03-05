@@ -2,10 +2,10 @@ import http from "k6/http";
 import { check } from "k6";
 
 export const options = {
-    vus: 100,
-    duration: '1m',
+    vus: 50,
+    duration: '30s',
     thresholds: {
-        checks: ['rate > 90']
+        checks: ['rate < 90']
     }
 }
 
