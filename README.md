@@ -1,4 +1,4 @@
-## K6 Study - AWS Execution
+## K6 Study - AWS and Github Actions execution
 
 requisites: 
 
